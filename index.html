@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Your Name | Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <!-- Custom cursor -->
+  <div class="cursor-dot" id="cursorDot"></div>
+
+  <header id="home">
+    <nav class="navbar">
+      <div class="logo">Your<span>Portfolio</span></div>
+      <ul class="nav-links">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">Profile</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#education" class="nav-link">Education</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#achievements" class="nav-link">Achievements</a></li>
+        <li><a href="#certifications" class="nav-link">Certifications</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+
+    <section class="hero">
+      <div class="hero-text">
+        <h1>Hi, I'm <span>Your Name</span></h1>
+        <p>Computer Science & Engineering Student | Web Developer</p>
+        <div class="hero-buttons">
+          <a href="assets/resume.pdf" class="btn primary" download>Download Resume</a>
+          <a href="#projects" class="btn secondary">View Projects</a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <img src="assets/profile.jpg" alt="Profile photo" />
+      </div>
+    </section>
+  </header>
+
+  <!-- PROFILE -->
+  <section id="about" class="section">
+    <h2 class="section-title">Student Profile</h2>
+    <div class="section-content">
+      <p>
+        I am a third-year Computer Science and Engineering student at
+        <strong>Your College Name</strong>, passionate about full-stack web
+        development, problem solving, and building useful tools.
+      </p>
+      <ul class="profile-list">
+        <li><strong>Name:</strong> Your Name</li>
+        <li><strong>USN:</strong> 1XX21CS001</li>
+        <li><strong>Email:</strong> yourmail@example.com</li>
+        <li><strong>Phone:</strong> +91-XXXXXXXXXX</li>
+        <li><strong>Location:</strong> City, State, India</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section alt-bg">
+    <h2 class="section-title">Skills</h2>
+    <div class="section-content skills-grid">
+      <div class="skill-card">
+        <h3>Programming</h3>
+        <p>C, C++, Java, Python</p>
+      </div>
+      <div class="skill-card">
+        <h3>Web Technologies</h3>
+        <p>HTML5, CSS3, JavaScript, PHP, MySQL</p>
+      </div>
+      <div class="skill-card">
+        <h3>Tools & Platforms</h3>
+        <p>Git, GitHub, VS Code, XAMPP</p>
+      </div>
+      <div class="skill-card dynamic-skill">
+        <h3>Currently Learning</h3>
+        <p id="learningText">Click to reveal</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION (TABLE FOR RUBRIC) -->
+  <section id="education" class="section">
+    <h2 class="section-title">Education</h2>
+    <div class="section-content">
+      <table class="edu-table">
+        <thead>
+          <tr>
+            <th>Course</th>
+            <th>Institution</th>
+            <th>Board / University</th>
+            <th>Year of Passing</th>
+            <th>CGPA / %</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>B.E. CSE</td>
+            <td>Your Engineering College</td>
+            <td>VTU</td>
+            <td>2026</td>
+            <td>8.9 CGPA</td>
+          </tr>
+          <tr>
+            <td>PUC / 12th</td>
+            <td>Your PU College</td>
+            <td>STATE</td>
+            <td>2022</td>
+            <td>92%</td>
+          </tr>
+          <tr>
+            <td>SSLC / 10th</td>
+            <td>Your School</td>
+            <td>STATE</td>
+            <td>2020</td>
+            <td>94%</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section alt-bg">
+    <h2 class="section-title">Projects</h2>
+    <div class="section-content projects-grid">
+      <article class="project-card">
+        <h3>Student Attendance Manager</h3>
+        <p>
+          Web app to track attendance using PHP, MySQL, and JavaScript charts.
+        </p>
+        <button class="btn small toggle-details">Show Details</button>
+        <ul class="project-details">
+          <li>Role-based login for admin, staff, and students.</li>
+          <li>Dynamic attendance visualization using JS.</li>
+        </ul>
+      </article>
+
+      <article class="project-card">
+        <h3>Portfolio Website</h3>
+        <p>
+          The website you are currently viewing, built using HTML, CSS, JS,
+          XSLT, PHP and MySQL.
+        </p>
+        <button class="btn small toggle-details">Show Details</button>
+        <ul class="project-details">
+          <li>Hosted on GitHub Pages.</li>
+          <li>Contact form integrated with PHP + MySQL.</li>
+        </ul>
+      </article>
+    </div>
+  </section>
+
+  <!-- ACHIEVEMENTS -->
+  <section id="achievements" class="section">
+    <h2 class="section-title">Achievements</h2>
+    <div class="section-content">
+      <ul class="bullet-list">
+        <li>Top 5 in college-level hackathon "Hack X 2024".</li>
+        <li>Secured 1st place in coding contest "CodeSprint".</li>
+        <li>Completed 200+ problems on online judges.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- CERTIFICATIONS (XSLT OUTPUT LINK) -->
+  <section id="certifications" class="section alt-bg">
+    <h2 class="section-title">Certifications</h2>
+    <div class="section-content">
+      <p>
+        Certifications are generated using <strong>XML + XSLT</strong>.
+        <a href="data.xml" target="_blank">View XSLT-rendered certifications</a>
+      </p>
+      <ul class="bullet-list">
+        <li>Web Development – Coursera</li>
+        <li>Python for Everybody – Coursera</li>
+        <li>Database Management Systems – NPTEL</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- CONTACT FORM (WITH USN VALIDATION) -->
+  <section id="contact" class="section">
+    <h2 class="section-title">Contact Me</h2>
+    <div class="section-content contact-grid">
+      <form id="contactForm" class="contact-form" method="post" action="php/contact.php">
+        <div class="form-group">
+          <label for="name">Name *</label>
+          <input type="text" id="name" name="name" required />
+          <small class="error" id="nameError"></small>
+        </div>
+
+        <div class="form-group">
+          <label for="usn">USN *</label>
+          <input type="text" id="usn" name="usn" required placeholder="1RV22CS001" />
+          <small class="error" id="usnError"></small>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email *</label>
+          <input type="email" id="email" name="email" required />
+          <small class="error" id="emailError"></small>
+        </div>
+
+        <div class="form-group">
+          <label for="subject">Subject *</label>
+          <input type="text" id="subject" name="subject" required />
+          <small class="error" id="subjectError"></small>
+        </div>
+
+        <div class="form-group">
+          <label for="message">Message *</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+          <small class="error" id="messageError"></small>
+        </div>
+
+        <button type="submit" class="btn primary">Send Message</button>
+        <p class="success" id="formSuccess"></p>
+      </form>
+
+      <div class="contact-info">
+        <h3>Get in touch</h3>
+        <p>I’m open to internships, projects, and collaborations.</p>
+        <p><strong>Email:</strong> yourmail@example.com</p>
+        <p><strong>GitHub:</strong> github.com/yourusername</p>
+        <p><strong>LinkedIn:</strong> linkedin.com/in/yourprofile</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Your Name. All rights reserved.</p>
+  </footer>
+</body>
+</html>

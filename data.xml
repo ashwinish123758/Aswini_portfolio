@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="portfolio.xsl"?>
+<certifications>
+  <certificate>
+    <title>Web Development</title>
+    <platform>Coursera</platform>
+    <year>2024</year>
+  </certificate>
+  <certificate>
+    <title>Python for Everybody</title>
+    <platform>Coursera</platform>
+    <year>2023</year>
+  </certificate>
+  <certificate>
+    <title>DBMS</title>
+    <platform>NPTEL</platform>
+    <year>2023</year>
+  </certificate>
+</certifications>
